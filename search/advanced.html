@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charsets="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search</title>
+        <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+        <!-- Navigator bar -->
+        <nav class = "navigator_bar">
+            <div class="nav_left">
+                <a href="https://www.google.com/webhp?tab=ww&authuser=0" style="padding: 2px;">
+                    <img src="google-advanced-logo.png" alt="Google Logo"style=" width: 90px; height: 30px;"> </a>
+            </div>
+            <div class="nav_right2">
+                <a href="C:\Users\OMEN\Documents\College Courses\Havard Web\search\index.html" style="padding: 5px;">Search</a>
+                <a href="https://www.google.com/intl/en/about/products" style="padding: 3px;">
+                    <img src="google_menu.JPG" alt="Google Menu"style=" width: 40px; height: 30px;"> </a>
+                <a href="https://www.google.com/account/about/" style="padding: 10px;">
+                    <img src="gmail_logo.JPG" alt="Google Logo"style=" width: 30px; height: 30px;"> </a>
+            </div>
+        </nav>
+
+        <div id="advanced_label">
+            <p style="color: rgb(195, 33, 33); font-size: large; padding: 5px;
+            padding-left: 30px;">Advanced Search</p>
+        </div>
+
+        <div id="advanced_label">
+            <p style="font-size: medium; padding: 5px;
+            padding-left: 30px;">Find Pages with...</p>
+
+        <form action="https://www.google.com/search" method="GET">
+            
+                <div class="advanced_bar">
+                    <p style="font-size: small; padding: 5px;
+                padding-left: 30px; padding-right: 90px;">all these words:</p>
+                <input type="text" name="as_q" autocomplete="off"><br />
+                <p style="font-size: smaller; padding: 5px;
+                padding-left: 30px; color: gray;">Type the important words:   tricolor rat terrier</p>
+                </div>
+    
+                <div class="advanced_bar">
+                <p style="font-size: small; padding: 5px;
+                padding-left: 30px; padding-right: 30px;">this exact word or phrase:</p>
+                <input type="text" name="as_epq" autofocus autocomplete="off"><br>
+                <p style="font-size: smaller; padding: 5px;
+                padding-left: 30px; color: gray;">Put exact words in quotes: "rat terrier"</p>
+                </div>
+    
+                <div class="advanced_bar">
+                <p style="font-size: small; padding: 5px;
+                padding-left: 30px; padding-right: 67px;">any of these words:</p>
+                <input type="text" name="as_oq" autocomplete="off"autocomplete="off"><br>
+                <p style="font-size: smaller; padding: 5px;
+                padding-left: 30px; color: gray;">Type OR between all the words you want: miniature OR standard</p>
+                </div>
+    
+                <div class="advanced_bar">
+                <p style="font-size: small; padding: 5px;
+                padding-left: 30px; padding-right: 57px;">none of these words:</p>
+                 <input type="text"  name="as_eq" autocomplete="off"><br>
+                 <p style="font-size: smaller; padding: 5px;
+                padding-left: 30px; color: gray;">Put a minus sign just before words you don't want: <br> -rodent, -"Jack Russel"</p>
+                </div>
+            </div>
+    
+           <div style="text-align: center; padding: 20px;">
+            <button type="submit" id="advanced_button" style="text-align: center;">
+                <label for="name" style="font-size: small; color: white; padding: 5px;">Advanced Search</label>
+            </button>
+           </div>
+        </form>
+
+        <!-- Footer bar -->
+        <nav class = "footer_bar">
+            <div class="foot_left">
+                <a href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1">Help</a>
+                <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            </div>
+            <div class="foot_right">
+            </div>
+        </nav>
+        
+    </body>
+</html>
